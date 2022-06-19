@@ -1,0 +1,13 @@
+{
+    "name": "hxhttp",
+    "url" : "https://github.com/rehax-native/hxhttp/",
+    "license": "MIT",
+    "tags": ["http", "cross"],
+    "description": "Library to make HTTP/S requests natively on each platform",
+    "version": "0.0.1",
+    "classPath": "hxhttp/",
+    "releasenote": "Initial release with mac, ios, and js/browser support",
+    "contributors": ["Denis"],
+    "dependencies": {
+    }
+  }

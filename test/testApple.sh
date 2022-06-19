@@ -1,0 +1,1 @@
+haxe -lib utest -main test.TestRunner -cpp out -D objc && out/TestRunner
