@@ -3,6 +3,17 @@ package test;
 import utest.Runner;
 import utest.ui.Report;
 
+@:buildXml('
+<files id="haxe">
+<compilerflag value="-std=c++14" />
+</files>
+<files id="runtime">
+<compilerflag value="-std=c++14" />
+</files>
+<files id="__main__">
+<compilerflag value="-std=c++14" />
+</files>
+')
 class TestRunner {
   public static function main() {
     //the long way

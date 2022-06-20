@@ -623,17 +623,6 @@ extern class NSRunLoop{
 }
 
 
-@:buildXml('
-<files id="haxe">
-<compilerflag value="-std=c++14" />
-</files>
-<files id="runtime">
-<compilerflag value="-std=c++14" />
-</files>
-<files id="__main__">
-<compilerflag value="-std=c++14" />
-</files>
-')
 class HttpRequestApple {
     public static function request(options:RequestOptions) {
 		var query = '';

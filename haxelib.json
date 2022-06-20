@@ -4,9 +4,9 @@
     "license": "MIT",
     "tags": ["http", "cross"],
     "description": "Library to make HTTP/S requests natively on each platform",
-    "version": "0.0.1",
-    "classPath": "hxhttp/",
-    "releasenote": "Initial release with mac, ios, and js/browser support",
+    "version": "0.0.3",
+    "classPath": "",
+    "releasenote": "Remove -std=c++14 compiler flag",
     "contributors": ["Denis"],
     "dependencies": {
     }

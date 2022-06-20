@@ -12,7 +12,7 @@ Planned platforms:
  - Android
 
 ## Example
-```
+```haxe
 HttpRequest.request({
     url: "https://httpbin.org/post",
     method: POST,
@@ -34,6 +34,12 @@ HttpRequest.request({
     },
 });
 ```
+
+## Set up
+
+`haxelib install hxhttp`
+Add it to your haxe compile command with `-lib hxhttp`.
+On mac and ios you have to pass `-D objc` as well, and have a min cpp std version of 14 (`<compilerflag value="-std=c++14" />`).
 
 ## Known issues
 
