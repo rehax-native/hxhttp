@@ -13,6 +13,10 @@ import utest.ui.Report;
 <files id="__main__">
 <compilerflag value="-std=c++14" />
 </files>
+
+<target id="haxe" tool="linker" toolid="exe">
+<lib name="../build/hxhttp.a" />
+</target>
 ')
 class TestRunner {
   public static function main() {
