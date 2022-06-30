@@ -1,5 +1,6 @@
 mkdir -p build/out
 
+cp hxhttp/HttpRequestAppleNative.h build/out/HttpRequestAppleNative.h
 cp build/hxhttp.a build/out/hxhttp-mac.a
 
 rm build/hxhttp-mac.zip

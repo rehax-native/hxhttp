@@ -4,9 +4,9 @@
     "license": "MIT",
     "tags": ["http", "cross"],
     "description": "Library to make HTTP/S requests natively on each platform",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "classPath": "",
-    "releasenote": "Use static library for mac",
+    "releasenote": "Fix include path",
     "contributors": ["Denis"],
     "dependencies": {
     }

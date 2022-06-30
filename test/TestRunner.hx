@@ -6,6 +6,7 @@ import utest.ui.Report;
 @:buildXml('
 <files id="haxe">
 <compilerflag value="-std=c++14" />
+<compilerflag value="-I.." />
 </files>
 <files id="runtime">
 <compilerflag value="-std=c++14" />

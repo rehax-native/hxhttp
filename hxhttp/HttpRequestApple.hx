@@ -26,7 +26,7 @@ extern class HeaderMap {
 extern class ResponseCallback {
 }
 
-@:include('../../../hxhttp/HttpRequestAppleNative.h')
+@:include('hxhttp/HttpRequestAppleNative.h')
 extern class HttpRequestAppleNative {
 	static function request(url:cpp.StdString, method:cpp.StdString, headers:HeaderMap, data:cpp.RawPointer<Void>, dataSize:Int, callback:ResponseCallback):Void;
 	static function releaseData(rawData:cpp.RawPointer<Void>):Void;
